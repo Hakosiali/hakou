@@ -1,0 +1,68 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #33333363; /* Darkish color */
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat or Helvetica */
+  color: rgb(255, 255, 255); /* Text color */
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(183, 24, 24);
+}
+
+/* Alternating Section Background Colors */
+.section:nth-child(even) {
+  background-color: #f2f2f2; /* Light color */
+}
+
+.section:nth-child(odd) {
+  background-color: #e0e0e0; /* Slightly darker color */
+}
+
+/* Image Styling */
+img {
+  border: 2px solid #670404; /* Add a border */
+  border-radius: 10px; /* Add curves to the images */
+  max-width: 100%; /* Ensure reasonable image size */
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%; /* Inputs take up all available space */
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: orange; /* Orang-y color */
+  color: rgb(107, 10, 10);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333333;
+  color: rgb(173, 21, 21);
+  text-align: center;
+  padding: 20px;
+}
